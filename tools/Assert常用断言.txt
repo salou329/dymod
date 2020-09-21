@@ -1,0 +1,17 @@
+(1) assertTrue：判断是否为True。
+
+(2) assertFalse：判断是否为false。
+
+(3) assertSame：判断引用地址是否相同。
+
+(4) assertNotSame：判断引用地址是否不相同。
+
+(5) assertNull：判断是否为null。
+
+(6) assertNotNull：判断是否不为null。
+
+(7) assertEquals：判断是否相等，Object类型的对象需要实现haseCode及equals方法。
+
+(8) assertNotEquals：判断是否不相等。
+
+(9) assertEqualsNoOrder：判断忽略顺序是否相等。

@@ -1,0 +1,106 @@
+salou,您好！
+2020-09-01 15:24:02
+IP:49.77.230.74(Jiangsu province)
+您正在使用的操作系统:Mac OS X
+对象仓库:本地对象仓库
+正在加载全局参数，请稍后...
+加载全局参数完成!
+正在连接chrome浏览器，请稍后...
+浏览器连接成功
+[TestNG] Running:
+  /Users/salou/eclipse-workspace/dymod/testng.xml
+
+对象仓库：<UIlibrary>：对象名称<用户名>，定位方式：xpath，值：//*[@id="app"]/div/div[2]/div[1]/div[1]/input
+我耶，经过1次查找终于找到对象 用户名
+对象仓库：<UIlibrary>：对象名称<用户名>，定位方式：xpath，值：//*[@id="app"]/div/div[2]/div[1]/div[1]/input
+对象仓库：<UIlibrary>：对象名称<密码>，定位方式：xpath，值：//*[@id="app"]/div/div[2]/div[1]/div[2]/input
+我耶，经过1次查找终于找到对象 密码
+对象仓库：<UIlibrary>：对象名称<密码>，定位方式：xpath，值：//*[@id="app"]/div/div[2]/div[1]/div[2]/input
+对象仓库：<UIlibrary>：对象名称<确定>，定位方式：xpath，值：//*[@id="app"]/div/div[2]/div[1]/button
+我耶，经过1次查找终于找到对象 确定
+对象仓库：<UIlibrary>：对象名称<确定>，定位方式：xpath，值：//*[@id="app"]/div/div[2]/div[1]/button
+对象仓库：<UIlibrary>：对象名称<确定>，定位方式：xpath，值：//*[@id="app"]/div/div[2]/div[1]/button
+对象仓库：<UIlibrary>：对象名称<确定>，定位方式：xpath，值：//*[@id="app"]/div/div[2]/div[1]/button
+对象仓库：<UIlibrary>：对象名称<确定>，定位方式：xpath，值：//*[@id="app"]/div/div[2]/div[1]/button
+对象仓库：<UIlibrary>：对象名称<确定>，定位方式：xpath，值：//*[@id="app"]/div/div[2]/div[1]/button
+对象仓库：<UIlibrary>：对象名称<确定>，定位方式：xpath，值：//*[@id="app"]/div/div[2]/div[1]/button
+对象仓库：<UIlibrary>：对象名称<确定>，定位方式：xpath，值：//*[@id="app"]/div/div[2]/div[1]/button
+对象仓库：<UIlibrary>：对象名称<确定>，定位方式：xpath，值：//*[@id="app"]/div/div[2]/div[1]/button
+对象仓库：<UIlibrary>：对象名称<确定>，定位方式：xpath，值：//*[@id="app"]/div/div[2]/div[1]/button
+对象仓库：<UIlibrary>：对象名称<确定>，定位方式：xpath，值：//*[@id="app"]/div/div[2]/div[1]/button
+对象仓库：<UIlibrary>：对象名称<确定>，定位方式：xpath，值：//*[@id="app"]/div/div[2]/div[1]/button
+对象仓库：<UIlibrary>：对象名称<确定>，定位方式：xpath，值：//*[@id="app"]/div/div[2]/div[1]/button
+对象仓库：<UIlibrary>：对象名称<确定>，定位方式：xpath，值：//*[@id="app"]/div/div[2]/div[1]/button
+登陆成功
+对象仓库：<UIlibrary>：对象名称<数据传输菜单>，定位方式：xpath，值：//*[@id="app"]/section/aside/ul/li[4]/span
+我耶，经过1次查找终于找到对象 数据传输菜单
+对象仓库：<UIlibrary>：对象名称<数据传输菜单>，定位方式：xpath，值：//*[@id="app"]/section/aside/ul/li[4]/span
+对象仓库：<UIlibrary>：对象名称<u盘导出按钮>，定位方式：xpath，值：//*[@id="app"]/section/section/div/div[1]/div/div[2]/div[1]/button
+我耶，经过1次查找终于找到对象 u盘导出按钮
+对象仓库：<UIlibrary>：对象名称<u盘导出按钮>，定位方式：xpath，值：//*[@id="app"]/section/section/div/div[1]/div/div[2]/div[1]/button
+对象仓库：<UIlibrary>：对象名称<上传状态>，定位方式：xpath，值：//*[@id="app"]/section/section/div/div[1]/div/div[1]/div[3]/div[1]/input
+我耶，经过1次查找终于找到对象 上传状态
+对象仓库：<UIlibrary>：对象名称<上传状态>，定位方式：xpath，值：//*[@id="app"]/section/section/div/div[1]/div/div[1]/div[3]/div[1]/input
+对象仓库：<UIlibrary>：对象名称<上传记录按钮>，定位方式：xpath，值：//*[@id="app"]/section/section/div/div[1]/div/div[2]/div[2]/button[1]
+我耶，经过1次查找终于找到对象 上传记录按钮
+对象仓库：<UIlibrary>：对象名称<上传记录按钮>，定位方式：xpath，值：//*[@id="app"]/section/section/div/div[1]/div/div[2]/div[2]/button[1]
+对象仓库：<UIlibrary>：对象名称<任务名称>，定位方式：xpath，值：//*[@id="app"]/section/section/div/div[1]/div/div[1]/div[5]/input
+我耶，经过1次查找终于找到对象 任务名称
+对象仓库：<UIlibrary>：对象名称<任务名称>，定位方式：xpath，值：//*[@id="app"]/section/section/div/div[1]/div/div[1]/div[5]/input
+对象仓库：<UIlibrary>：对象名称<导出状态>，定位方式：xpath，值：//*[@id="app"]/section/section/div/div[1]/div/div[1]/div[4]/div[1]/input
+我耶，经过1次查找终于找到对象 导出状态
+对象仓库：<UIlibrary>：对象名称<导出状态>，定位方式：xpath，值：//*[@id="app"]/section/section/div/div[1]/div/div[1]/div[4]/div[1]/input
+对象仓库：<UIlibrary>：对象名称<开始日期>，定位方式：xpath，值：//*[@id="app"]/section/section/div/div[1]/div/div[1]/div[1]/input
+我耶，经过1次查找终于找到对象 开始日期
+对象仓库：<UIlibrary>：对象名称<开始日期>，定位方式：xpath，值：//*[@id="app"]/section/section/div/div[1]/div/div[1]/div[1]/input
+对象仓库：<UIlibrary>：对象名称<批量查询按钮>，定位方式：xpath，值：//*[@id="app"]/section/section/div/div[1]/div/div[2]/div[1]/span/button
+我耶，经过1次查找终于找到对象 批量查询按钮
+对象仓库：<UIlibrary>：对象名称<批量查询按钮>，定位方式：xpath，值：//*[@id="app"]/section/section/div/div[1]/div/div[2]/div[1]/span/button
+对象仓库：<UIlibrary>：对象名称<数据传输菜单>，定位方式：xpath，值：//*[@id="app"]/section/aside/ul/li[4]/span
+我耶，经过1次查找终于找到对象 数据传输菜单
+对象仓库：<UIlibrary>：对象名称<数据传输菜单>，定位方式：xpath，值：//*[@id="app"]/section/aside/ul/li[4]/span
+对象仓库：<UIlibrary>：对象名称<查询按钮>，定位方式：xpath，值：//*[@id="app"]/section/section/div/div[1]/div/div[1]/button
+我耶，经过1次查找终于找到对象 查询按钮
+对象仓库：<UIlibrary>：对象名称<查询按钮>，定位方式：xpath，值：//*[@id="app"]/section/section/div/div[1]/div/div[1]/button
+对象仓库：<UIlibrary>：对象名称<结束日期>，定位方式：xpath，值：//*[@id="app"]/section/section/div/div[1]/div/div[1]/div[2]/input
+我耶，经过1次查找终于找到对象 结束日期
+对象仓库：<UIlibrary>：对象名称<结束日期>，定位方式：xpath，值：//*[@id="app"]/section/section/div/div[1]/div/div[1]/div[2]/input
+对象仓库：<UIlibrary>：对象名称<开始日期>，定位方式：xpath，值：//*[@id="app"]/section/section/div/div[1]/div/div[1]/div[1]/input
+我耶，经过1次查找终于找到对象 开始日期
+对象仓库：<UIlibrary>：对象名称<开始日期>，定位方式：xpath，值：//*[@id="app"]/section/section/div/div[1]/div/div[1]/div[1]/input
+对象仓库：<UIlibrary>：对象名称<结束日期>，定位方式：xpath，值：//*[@id="app"]/section/section/div/div[1]/div/div[1]/div[2]/input
+我耶，经过1次查找终于找到对象 结束日期
+对象仓库：<UIlibrary>：对象名称<结束日期>，定位方式：xpath，值：//*[@id="app"]/section/section/div/div[1]/div/div[1]/div[2]/input
+对象仓库：<UIlibrary>：对象名称<开始日期>，定位方式：xpath，值：//*[@id="app"]/section/section/div/div[1]/div/div[1]/div[1]/input
+我耶，经过1次查找终于找到对象 开始日期
+对象仓库：<UIlibrary>：对象名称<开始日期>，定位方式：xpath，值：//*[@id="app"]/section/section/div/div[1]/div/div[1]/div[1]/input
+对象仓库：<UIlibrary>：对象名称<结束日期>，定位方式：xpath，值：//*[@id="app"]/section/section/div/div[1]/div/div[1]/div[2]/input
+我耶，经过1次查找终于找到对象 结束日期
+对象仓库：<UIlibrary>：对象名称<结束日期>，定位方式：xpath，值：//*[@id="app"]/section/section/div/div[1]/div/div[1]/div[2]/input
+对象仓库：<UIlibrary>：对象名称<查询按钮>，定位方式：xpath，值：//*[@id="app"]/section/section/div/div[1]/div/div[1]/button
+我耶，经过1次查找终于找到对象 查询按钮
+对象仓库：<UIlibrary>：对象名称<查询按钮>，定位方式：xpath，值：//*[@id="app"]/section/section/div/div[1]/div/div[1]/button
+对象仓库：<UIlibrary>：对象名称<开始日期>，定位方式：xpath，值：//*[@id="app"]/section/section/div/div[1]/div/div[1]/div[1]/input
+我耶，经过1次查找终于找到对象 开始日期
+对象仓库：<UIlibrary>：对象名称<开始日期>，定位方式：xpath，值：//*[@id="app"]/section/section/div/div[1]/div/div[1]/div[1]/input
+对象仓库：<UIlibrary>：对象名称<结束日期>，定位方式：xpath，值：//*[@id="app"]/section/section/div/div[1]/div/div[1]/div[2]/input
+我耶，经过1次查找终于找到对象 结束日期
+对象仓库：<UIlibrary>：对象名称<结束日期>，定位方式：xpath，值：//*[@id="app"]/section/section/div/div[1]/div/div[1]/div[2]/input
+对象仓库：<UIlibrary>：对象名称<开始日期>，定位方式：xpath，值：//*[@id="app"]/section/section/div/div[1]/div/div[1]/div[1]/input
+我耶，经过1次查找终于找到对象 开始日期
+对象仓库：<UIlibrary>：对象名称<开始日期>，定位方式：xpath，值：//*[@id="app"]/section/section/div/div[1]/div/div[1]/div[1]/input
+对象仓库：<UIlibrary>：对象名称<结束日期>，定位方式：xpath，值：//*[@id="app"]/section/section/div/div[1]/div/div[1]/div[2]/input
+我耶，经过1次查找终于找到对象 结束日期
+对象仓库：<UIlibrary>：对象名称<结束日期>，定位方式：xpath，值：//*[@id="app"]/section/section/div/div[1]/div/div[1]/div[2]/input
+对象仓库：<UIlibrary>：对象名称<查询按钮>，定位方式：xpath，值：//*[@id="app"]/section/section/div/div[1]/div/div[1]/button
+我耶，经过1次查找终于找到对象 查询按钮
+对象仓库：<UIlibrary>：对象名称<查询按钮>，定位方式：xpath，值：//*[@id="app"]/section/section/div/div[1]/div/div[1]/button
+对象仓库：<UIlibrary>：对象名称<上传状态>，定位方式：xpath，值：//*[@id="app"]/section/section/div/div[1]/div/div[1]/div[3]/div[1]/input
+我耶，经过1次查找终于找到对象 上传状态
+对象仓库：<UIlibrary>：对象名称<上传状态>，定位方式：xpath，值：//*[@id="app"]/section/section/div/div[1]/div/div[1]/div[3]/div[1]/input
+
+===============================================
+Suite
+Total tests run: 7, Failures: 1, Skips: 4
+===============================================
+

@@ -1,0 +1,3 @@
+//excel文件名对应数据库的pro_name
+
+="INSERT INTO `autotest`.`object` (`sheet`, `pro_name`, `objectName`, `value`, `location`) VALUES ('"&MID(CELL("filename"),FIND("]",CELL("filename"))+1,256)&"', '"&MID(CELL("filename"),FIND("[",CELL("filename"))+1,FIND(".",CELL("filename"),FIND("[",CELL("filename")))-FIND("[",CELL("filename"))-1)&"', '"&A2&"', '"&B2&"', '"&C2&"');"

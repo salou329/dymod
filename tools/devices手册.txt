@@ -1,0 +1,25 @@
+win：
+adb devices //查看devies id
+adb shell dumpsys activity activities >C:\android.txt //查看包名
+adb shell dumpsys activity activities >/Users/shiwenbin/Desktop/abc.txt
+adb connect 127.0.0.1:7555 //连接mumu模拟器，查看devies id
+
+mac：
+adb kill-server && adb devices //连接mumu模拟器，查看devies id
+instruments -s devices //查看ios模拟器 devices id和udid
+
+
+
+//查看android对象 
+uiautomatorviewer
+
+//查看ios对象
+使用appium自带工具
+json例子：
+{
+  "app": "/Users/shiwenbin/Desktop/app/eps.ipa",
+  "deviceName": "iPhone X (11.4)",
+  "udid": "8C6473A6-976D-4627-8A91-3B1A472D6688",
+  "automationName": "XCUITest",
+  "platformName": "ios"
+}

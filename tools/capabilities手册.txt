@@ -1,0 +1,58 @@
+automationName:使用哪个自动化引擎，默认是Appium
+platformName:使用哪个移动操作系统，iOS Android 或者 FirefoxOS
+platform Version: 移动操作系统的版本
+device Name：使用的移动设备或者模拟器类型，例如Android Emulator,在ios系统下通过 instruments -s devices命令 返回正确的设备，android的话使用adb devices可以获取设备的id
+app: 绝对本地路径或者指向ipa或apk文件，对于android来说如果指定了appPackage和appActivity属性，那么该属性就不是必须的。
+browserName:用于自动化测试ide移动Web浏览器，例如ios为Safari，android为Chrome Chromium 或Browser
+newCommandTimeout:Appium等待接收从客户端发送的新命令的超时时长，超时后Appium认为客户端已经退出，终止会话。
+autoLaunch:是否让Appium自动安装和启动应用，默认为True
+language:设置语言
+locale:设置位置
+udid:所链接物理设备的唯一设备标识符
+orientation:指定一个特定的方向
+autoWebview:直接进入Webview内容中，默认为false
+noReset:在会话前不重置应用状态，默认为false
+fullReset:在ios中删除整个模拟器文件夹，在android中ton故宫卸载APP来重置app状态，而不是清楚数据。
+ 
+Appium server capabilities (只针对android)
+appActivity:测试人员希望从保重启动的android activity的名称，通常都会加个前缀“ . ”
+appPackage:希望运行的android应用的java包，例如com.example.android.myApp
+appWaitActivity:希望等待的Android Activity的名称
+appWaitPackage:希望等待的Java包的名称
+deviceReadyTimeout:等待设备就绪的超时时长，以秒为单位
+androidCoverage:完全合格的instrumentation类
+enablePerformanceLogging:让Chromedriver的性能日志功能生效，只针对Chrome和Webview，默认为false
+androidDeviceSocket:Devtool socket名，只有当待测应用是Chromium embedding browser时才需要，浏览器打开端口，Chromedriver以devtools客户端的方式连接该端口
+avd:启动的avd名（android virtual device）
+avdLaunchTimeout:等待avd启动和链接到adb的超时时长，单位为毫秒，默认120000
+avdReadyTimeout:等待avd完成其开机动画的超时时长，单位为毫秒，默认120000
+avdArgs:当启动avd时，用到的其它模拟器参数
+useKeystore:使用一个自定义密钥库来签名apk,默认为false
+keystorePath:自定义密钥库的路径，默认为~/.android/debug.keystore
+keyAlias:key的别名
+keyPassword:Key的密码
+chromdriverExecutable:指向webdriver executable的绝对本地路径
+autoWebviewTimeout:等待webview内容激活的超时时长 ，毫秒单位，默认2000
+intentAction:用来启动activity的Intent action（默认为android.intent.action.MAIN）
+unicodeKeyboard:启用Unicode输入，默认为false
+ignoreUnimportantViews:调用函数uiautomator()和setCompressedLayoutHierarchy()，该属性可以加速测试执行，原因在于Accessibility命令忽略某些元素时运行更快，忽略的元素无法找到，默认false
+ 
+Appium server capabilities (只针对iOS)
+calendarFormat:设置ios模拟器的日历格式
+bundleID:待测应用的bundleID
+udid:所连接的物理设备的唯一的设备标识符
+launchTimeout:在假定instruments已经挂掉了并终止会话前的超时时长，单位为毫秒
+locationServicesEnabled:（只针对模拟器）强制打开或者关闭位置服务，默认保持当前设置
+locationServicesAuthorized:(只针对模拟器）通过plist授权设置位置服务或者不授权设置位置服务，这样位置服务警告框就不会弹出，默认保持当前设置，注意如果使用了该设置，则必须同时使用bundleid属性
+autoAcceptAlerts:遇到弹出的ios隐私访问权限警告时自动接受，默认为false
+autoDismissAlerts:弹出ios隐私访问权限警告，自动解除，默认false
+nativeWebTap:在Safari中，启用真实的 非基于javascript的web单击，默认false
+safariInitialUrl:初始化safari url,默认是本地欢迎页面
+safariAllowPopups:在safari中允许javascript打开新窗口
+safariIgnoreFraudWarning:阻止safari显示一个欺诈性网站的警告
+safariOpenLinksInBackground：safari是否允许在新窗口中打开链接
+keepKeyChains:在appium会话启动和终止时，是否保存keychains
+interKeyDelay:打字时发送到某个元素的按键敲击之间的时长，以毫秒为单位
+showiOSLog：是否在Appium日志中显示任何从设备捕获的日志
+screenshotWaitTimeout:等待截屏产生的最大超时时长，单位为秒，默认10
+waitForAppScript:用来判断应用是否已经启动，ios自动化测试脚本，默认情况下系统等待页面源码不为空，结果是布尔值

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite thread-count="1" name="Suite" parallel="none">
+  <test name="Test">
+    <classes>
+      <class name="ui.init"/>
+      <class name="ui.login"/>
+      <class name="ui.dataTrans"/>
+      <class name="ui.flightRecords"/>
+      <class name="ui.monitorin"/>
+      <class name="ui.lineManagement"/>
+      <class name="ui.LinePatrolManagement"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
