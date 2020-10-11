@@ -85,7 +85,37 @@ public class WebMethod extends ControlMethod {
 					break;
 				}
 			}
-		} catch (Exception e) {
+		} else if (os.contains("Linux")) {
+			switch (conf) {
+			case "firefox":
+				System.setProperty("webdriver.firefox.marionette", "src/main/java/resources/geckodriver");
+				// System.out.println(Tools.cmdLine("src/main/java/resources/geckodriver
+				// --version"));
+				driver = new FirefoxDriver();
+				System.out.println("浏览器连接成功");
+				break;
+			case "chrome":
+				System.setProperty("webdriver.chrome.driver", "src/main/java/resources/chromedriver");
+				// System.out.println(Tools.cmdLine("src/main/java/resources/chromedriver
+				// --version"));
+//					ChromeOptions options = new ChromeOptions();
+//					options.addArguments("user-data-dir=/Users/salou/Library/Application Support/Google/Chrome/Default");
+				driver = new ChromeDriver();
+				System.out.println("浏览器连接成功");
+				break;
+			case "h5":
+				System.setProperty("webdriver.chrome.driver", "src/main/java/resources/chromedriver");
+				// System.out.println(Tools.cmdLine("src/main/java/resources/chromedriver
+				// --version"));
+				driver = new ChromeDriver(h5());
+				System.out.println("浏览器连接成功");
+				break;
+			default:
+				System.err.print("×驱动加载错误，请检查参数是否正确，火狐浏览器：firefox，谷歌浏览器：chrome，WAP浏览器：h5（区分大小写）");
+				break;
+			}
+		}
+	} catch (Exception e) {
 			if (e.toString().contains("Develop menu") && conf.equals("safari")) {
 				System.err.println("驱动加载错误,请在safari浏览器-开发-允许远程自动化前打勾!");
 			} else {
