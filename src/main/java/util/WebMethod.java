@@ -84,7 +84,7 @@ public class WebMethod extends ControlMethod {
 					System.err.print("×驱动加载错误，请检查参数是否正确，火狐浏览器：firefox，谷歌浏览器：chrome，苹果浏览器：safari，WAP浏览器：h5（区分大小写）");
 					break;
 				}
-			}
+			
 		} else if (os.contains("Linux")) {
 			switch (conf) {
 			case "firefox":
